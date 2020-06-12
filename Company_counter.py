@@ -1,14 +1,12 @@
-charges = int(input('Введите сумму издержек'))
-effect = int(input('Введите сумму выручки'))
+effect = int(input("Enter your effect")) # выручка
+charges = int(input("Enter your charges")) # издержки
 profit = effect - charges
 if profit > 0:
-	profitability = profit / effect * 100
-	print('Ваша деятельность приносит прибыль')
-	print('Рентабельность выручки составляет ', profitability, ' %.')
-if profit == 0:
-	print('Ваша деятельность не приносит прибыль')
+    print("your company is successful")
+    print(f"profitability is: {profit / effect * 100:.4f}")
+    workers = int(input("How many employees work in your company?"))
+    print(f"one worker profit is: {profit / workers:.4f}")
 if profit < 0:
-	print('Ваша деятельность убыточна')
-workers = int(input('Сколько у вас сотрудников?'))
-one_worker_profit = profit // workers
-print('Прибыль в расчете на одного сотрудника составляет ', one_worker_profit, ' рублей')
+    print("your company isn't successful")
+if profit == 0:
+    print("your company isn't successful")
