@@ -1,0 +1,5 @@
+number1 = int(input('Введите число'))
+number2 = int(input('Еще одно число введите, пожалуйста'))
+str1 = input('Напишите какой-нибудь текст')
+str2 = input('Буковки какие-нибудь начертайте')
+print(number1, number2, str1, str2)
