@@ -1,5 +1,5 @@
-def PersonalData (name, sirname, city):
-	result = name + sirname + city
+def PersonalData (name, surname, city):
+	result = name + surname + city
 	return result
 
-print('first worker' + PersonalData(sirname="B", name="A", city="C"))
+print('first worker' + PersonalData(surname="B", name="A", city="C"))
