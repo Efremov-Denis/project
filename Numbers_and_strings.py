@@ -1,0 +1,5 @@
+number1 = int(input())
+number2 = int(input())
+line1 = input()
+line2 = input()
+print(number1, number2, line1, line2)
